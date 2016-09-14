@@ -125,5 +125,12 @@ int main(){
 	else
 		printf("Failed!\n");
 
+
+	free(m1);
+	free(m2);
+	free(transposed_m2);
+	free(sequential_matrix);
+	free(openmp_matrix);
+
 	return 0;
 }
